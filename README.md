@@ -1,6 +1,8 @@
 # Music-Downloader
+```sh
 Music Downloader  
 You can star this repository to keep track of the project if it's helpful for you, thank you for your support.
+```
 
 # Support
 - [x] [QQ](https://y.qq.com/)
@@ -10,7 +12,8 @@ You can star this repository to keep track of the project if it's helpful for yo
 - [x] [Qianqian](http://music.taihe.com/)
 - [x] [Wangyiyun](https://music.163.com/)
 
-# How to run?
+# Usage
+### Take it as a software
 #### Step1
 ```sh
 Download this repository:
@@ -24,35 +27,35 @@ Install some dependencies:
 ```
 #### Step3
 ```sh
-Run Demo.py or Cmd.py:  
-"python Demo.py" or "python Cmd.py"
+cd MusicDownloader, run cmd.py:  
+"python cmd.py" or "python3 cmd.py"
+```
+### Take it as a library
+#### Step1
+```sh
+pip install git+https://github.com/CharlesPikachu/Music-Downloader.git@master
+```
+#### Step2
+```sh
+Write a python script like the following:
+from MusicDownloader import cmd
+md = cmd.MusicDownloader()
+md.run()
+Then, just run the python script~
 ```
 
-# Platform[Tested]
-- Windows  
-- Python3.6  
-
-# Record
-### 2018-06-27
-- Version: V1.0  
-- Detail: Four platforms supported.  
-### 2018-07-01
-- Version: V1.1  
-- Detail: Optimize the code, support kuwo.  
-### 2018-07-02
-- Version: V1.2  
-- Detail: Optimize the code, support xiami.
-### 2018-08-05
-- Version: V1.3  
-- Detail: Support cmd.
+# Environment
+- Windows/Linux
+- Python3.5+(have installed necessary dependencies.)
 
 # Running Screenshot
-#### Demo.py
-![img](./Screenshot/Screenshot1.png)
 #### Cmd.py
-![img](./Screenshot/Screenshot2.png)
+![img](./Screenshot/cmd.png)
+
+# Log
+see Log dir → [click](./Log)
 
 # More
-### WeChat Official Accounts
-Charles_pikachu  
-![img](pikachu.jpg)
+#### WeChat Official Accounts
+*Charles_pikachu*  
+![img](./Screenshot/pikachu.jpg)
